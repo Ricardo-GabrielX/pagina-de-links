@@ -3,8 +3,8 @@ Esse é um mini projeto que fiz que vi no codante, fiz de um jeito diferente, ma
 # Como funciona? 🤔
 O projeto tem arquivo json que você põe suas informações, links e ele muda automaticamente para você, não precisa ir em qualquer outro lugar, facilitando se tiver que mudar qualquer informação que desejar
 ## Tecnologias usadas 🛠️
-• HTML
-• CSS
-• Javascript
-• Vite
-• Node
+• HTML <br>
+• CSS <br>
+• Javascript <br>
+• Vite <br>
+• Node <br>
