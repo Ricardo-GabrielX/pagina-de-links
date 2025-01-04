@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh; 
+    width: 100vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+   
+}
+
+.background {
+    position: absolute; /* Garante que ele não afete o fluxo normal */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/background.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Envia o background para trás */
+}
+
+.card {
+    border-radius: 19px;
+    border: 3px solid #A2D729;
+    background: #043873; 
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-header .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #3c5335;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.description {
+    font-family: "Josefin Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #c8cacd;
+    font-style: italic;
+}
+
+.links {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links li {
+    background-color: #a3d729c1;
+    color: #FFFFFF;
+    border-radius: 15px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none; /* Remove a linha */
+}
+
+.links li:hover {
+    background-color: #507a4b;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.links li a {
+    color: inherit;
+    text-decoration: none; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+
+  a img {
+    filter: brightness(0) invert(1); 
+    width: 20px; 
+    height: auto; 
+    margin-right: 8px; 
+  }
+  
+
+@media (max-width:400px){
+    .card{
+        width: 90%;
+    }
+}

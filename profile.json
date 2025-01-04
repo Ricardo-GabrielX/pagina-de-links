@@ -1,0 +1,12 @@
+{
+    "user": {
+      "name": "Ricardo Gabriel",
+      "avatar": "./foto.png",
+      "description": "Sou dev Frontend e UX/UI Desing",
+      "links": [
+        { "class": "link-1", "text": "Portfólio", "icon": "./link.svg", "href": "https://porfolio-sigma-azure.vercel.app/" },
+        { "class": "link-2", "text": "Linkedin", "icon": "./linkedin.svg", "href": "https://www.linkedin.com/in/ricardo-gabriel-vianna-de-oliveira-820b541b8/" },
+        { "class": "link-3", "text": "Github", "icon": "./github.svg", "href": "https://github.com/Ricardo-GabrielX" }
+      ]
+    }
+  }
