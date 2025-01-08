@@ -10,6 +10,8 @@ O projeto tem arquivo json que você põe suas informações, links e ele muda a
 
 Esse é o arquivo e é so mudar para suas informações, para suas imagens tem de ser colocadas na pasta public, se desejar colocar alguma outra rede social que não seja as que coloquei de exemplo é só baixar o icone(preferencialmente em SVG) e colocar também na pasta public. Você pode pegar os icones no site ***https://fontawesome.com/*** foi aonde eu peguei, lá tem icones gratuitos que podem ser usados sem problemas! 
 
+E o background peguei do site https://uiverse.io/
+
 ## Tecnologias usadas 🛠️
 • HTML <br>
 • CSS <br>
